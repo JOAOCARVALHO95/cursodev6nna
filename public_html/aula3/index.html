@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="formulario.html" method="post">
+            <fieldset>
+                <legend>Cadastro do Usuario:</legend>
+            <p>Login:</p>
+            <input type="text" name="primeiroNome" placeholder="Digite seu login" required><p></p>
+            <p>Senha:</p>
+            <input type="password" name="senha" placeholder="Digite sua senha" required> 
+            <p></p>
+            <input type="radio" name="genero" value="M">Masculino<br/>
+            <input type="radio" name="genero" value="F">Feminino<p></p>
+            <select name="cidade">
+                <option value="belem">BELÉM</option>
+                <option value="riodejaneiro">Rio de Janeiro</option>
+            </select><p></p>
+                    
+                
+            <input type="checkbox" name="veiculo" value="bicicleta">Eu tenho uma bicleta<br>
+            <input type="checkbox" name="veiculo" value="carro">Eu tenho um carro<br>
+            <input type="checkbox" name="veiculo" value="barco">Eu tenho um Moto<br>
+            <p>Deixe seu comentario:</p><br>
+            <textarea rows="10" cols="45" placeholder="Comenta ai viadinho"></textarea>   <p></p>
+            <input type="submit" value="Enviar"> 
+            <input type="submit" value="Cancelar"> 
+            <input type="reset" value="Limpar">
+            <input type="hidden" name="acao" value="cadastrar pessoa"> 
+        </fieldset>
+            </form>
+    </body>
+</html>
