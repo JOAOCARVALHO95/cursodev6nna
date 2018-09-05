@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="home.css" rel="stylesheet">
+    </head>
+
+  <body>
+<h2>Formulário de cadastro</h2>
+  <form id="formulario" autocomplete="off">
+	<fieldset class="fild1">
+		   <legend>Dados Pessoais</legend>
+                  
+                   <b> <label>Nome:</label></b><input class="campo_nome" type="text"><br>
+		<p><B> E-mail:</B> <input class="campo_email" type="text" name="Nome"> </p>
+		<p><B> Cidade:</B> <input class="campo_cidade" type="text" name="Nome"> </p><p>
+
+                    <b>Estado:</b> <select class="estado" name="Estado">
+			<option value="ac">AC</option>
+			<option value="al">AL</option>
+			<option value="ap">AP</option>
+			<option value="am">AM</option>
+			<option value="ba">BA</option>
+			<option value="ce">CE</option>
+			<option value="df">DF</option>
+			<option value="es">ES</option>
+			<option value="pa">PA</option>
+			<option value="sp">SP</option>
+			<option value="go">GO</option>
+			<option value="ma">MA</option></select><p>
+
+</fieldset>
+<br>
+<br>	
+<fieldset class="fild2">
+		   <legend>Dados Profissionais</legend>
+                 <b>Cargo pretendido:</b><br>
+		<input type="radio" name="cargo" value="as">Analista de sistemas
+		<input type="radio" name="cargo" value="abd">Analista de banco de dados
+		<input type="radio" name="cargo" value="asu">Analista de suporte <br><br>
+
+		<b>Tecnologias de interesse:</b><br>
+			<input type="checkbox" name="tec" value="java">Java
+			<input type="checkbox" name="tec" value="html">HTML
+			<input type="checkbox" name="tec" value="css">CSS
+			<input type="checkbox" name="tec" value="script">Javascript
+			<input type="checkbox" name="tec" value="sql">SQL<br><br>
+
+
+		<b>Mini currículo:</b><br>
+			<textarea rows="5" cols="50"></textarea>
+
+
+
+</fieldset>
+
+<br>
+
+<fieldset class="fild3">
+	<legend>Ações</legend>
+	<input type="button" value="Enviar">
+	<input type="button" value="Limpar">
+ 
+
+	</form>
+  
+
+  </body>
+
+</html>
+	 
