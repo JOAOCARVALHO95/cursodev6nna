@@ -9,34 +9,60 @@ and open the template in the editor.
 */
 #formulario input.campo_nome
 {
-  background-color:#f1ff00;
+  background-color:#fff68f ;
+  
   
 }
 
 #formulario input.campo_email
 {
-  background-color:#f1ff00;
+  background-color:#fff68f ;
   
 }
 #formulario input.campo_cidade
 {
-  background-color:#f1ff00;
+  background-color:#fff68f;
   
 }
 
 #formulario select.estado
 {
-    background-color: #f1ff00
+    background-color: #fff68f;
 }
-
-.fild1, .fild1 legend{    
+.obs{
+    background-color: #fff68f;
+}
+.fild1 {
     background-color:lightblue;
+    border: dotted;
     
 }
+.fild1 legend{    
+    background-color:lightblue;    
+}
 .fild2{
+    background-color: lightcoral;
+    border: dotted;
+}
+
+.fild2 legend{
     background-color: lightcoral;
 }
 
 .fild3{
     background-color: limegreen;
+    border: dotted;
+}
+
+.fild3 legend{
+    background-color: limegreen;
+}
+
+.b1{
+    background-color:darkgreen;
+    
+   
+}
+.b2{
+    background-color:darkorange
 }
