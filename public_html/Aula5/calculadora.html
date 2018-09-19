@@ -12,15 +12,20 @@ and open the template in the editor.
         <link href="cal.css" rel="stylesheet">
     </head>
     <body>
-        #1:<input class="n1" type="text"><br>
-        #2:<input class="n1" type="text">
+        #1:<input class="n1" type="text" id="valor1"><br>
+        #2:<input class="n1" type="text" id="valor2">
         <br>
         
-        <input class="b1" type="button" value="+">
-        <input class="b1" type="button" value="-">
-        <input class="b1" type="button" value="*">
-        <input class="b1" type="button" value="/">
+        <input class="b1" onclick="soma()"  type="button" value="+">
+        <input class="b1" onclick="diminuir()" type="button" value="-">
+        <input class="b1" onclick="multiplicar()" type="button" value="*">
+        <input class="b1" onclick="dividir()" type="button" value="/">
+        <br>
+        Resultado = 
+        <span id="resultado"> </span>
+        <script type="text/javascript" src="cal.js">
+            
+        </script>
         
-        <span></span>
     </body>
 </html>
