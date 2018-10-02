@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="area.css" rel="stylesheet">
+        <link rel="stylesheet" href="pagina_inicial.css" type="text/css"/>
+        
+
+
+    </head>
+    <body>
+    
+        <table border>
+            
+           <tr>
+            
+                <td><center><b>Triângulo</b></center></td>
+                <td><center><b>Quadrado</b></center></td>
+                <td><center><b>Círculo</b></center></td>
+                <td><center><b>Trapézio</b></center></td>
+                <td><center><b>Retângulo</b></center></td>
+        </tr>
+            
+            
+            <tr>
+                <td><img src="triangulo.png"/></td>
+                <td><img src="quadrado.png"/></td>
+                <td><img src="circulo.png"/></td>
+                <td><img src="trapezio.png"/></td>
+                <td><img src="retangulo.jpg"/></td>
+                
+            </tr>
+            <tr>
+                <td><p>Base:<input   type="text" name="nome" id="base"><br>
+                       Altura:<input type="text" name="altura" id="altura"><br>
+                    <input id="b1" onclick="calt()" type="button" value="calc. área"><br>
+                    Área:<input type="text" name="area" id="resultadot"></p>
+            
+                </td>
+            
+                <td><p>Lado:<input  type="text" name="lado" id="lado"><br>
+                    <input id ="b2" onclick="calq()" type="button" value="calc. área"><br>
+                    Área:<input  type="text"  name="areaq" id="resultadoq"></p>
+                    
+                </td>
+                
+                <td><p>Raio:<input  type="text" name="raio" id="raio"><br>
+                    <input id ="b3" onclick="calr()" type="button" value="calc. área"><br>
+                    Área:<input  type="text"  name="areac" id="resultadoc"></p>
+                    
+                </td>
+                  <td><p>Base maior <input  type="text" name="basemaior" id="basemaior"><br>
+                      <p>Base menor <input  type="text" name="basemenor" id="basemenor"><br>
+                      <p>altura <input  type="text" name="alturaT" id="alturat"><br>    
+                    <input id ="b4" onclick="caltra()" type="button" value="calc. área"><br>
+                    Área:<input  type="text"  name="areac" id="resultadotra"></p
+                </td>
+                 <td><p>Base  <input  type="text" name="baseretangulo" id="baser"><br>
+                      <p>altura <input  type="text" name="alturaretangulo" id="alturaR"><br>    
+                    <input id ="b5" onclick="calret()" type="button" value="calc. área"><br>
+                    Área:<input  type="text"  name="areac" id="resultadoR"></p
+                </td>
+                
+                
+            </tr>
+            
+        </table>
+        <script type="text/javascript" src="pagina_inicial.js">
+        </script>
+        
+    </body>
+</html>

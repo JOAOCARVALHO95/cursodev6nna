@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/09/2018, 17:10:12
+    Author     : Carvalho
+*/
+p{
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#b1{
+    width: 100px;
+}
+
+#b2{
+    width: 100px;
+}
+#b3{
+    
+    width: 100px;
+}
+#b4{
+    width: 100px;
+}
+#b5{
+    width: 100px;
+}
+
+
+#base{
+   margin-left: 9px;
+   height: 15px;
+   width: 50px;
+   
+   
+}
+
+#raio{
+   margin-bottom: 50px;
+   margin-left: 9px;
+   height: 15px;
+   width: 50px;
+   
+   
+}
+#basemaior{
+   margin-left: 9px;
+   height: 15px;
+   width: 50px;
+   
+   
+}
+#basemenor{
+   margin-left: 9px;
+   height: 15px;
+   width: 50px;
+   
+   
+}
+#baser{
+   margin-left: 9px;
+   height: 15px;
+   width: 50px;
+   
+   
+}
+
+#altura{
+   margin-left: 3px;
+   height: 15px;
+   width: 50px;
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+#alturat{
+   margin-left: 3px;
+   height: 15px;
+   width: 50px;
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+
+#alturaR{
+   margin-left: 3px;
+   height: 15px;
+   width: 50px;
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+
+
+
+#lado{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    height: 15px;
+    width: 50px;
+}
+
+#resultadot{
+    height: 15px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#resultadoq{
+    margin-top: 35px;
+    height: 15px;
+    width: 50px;
+}
+#resultadoc{
+    margin-top: 35px;
+    height: 15px;
+    width: 50px;
+}
+#resultadotra{
+    margin-top: 35px;
+    height: 15px;
+    width: 50px;
+}
+#resultadoR{
+    margin-top: 35px;
+    height: 15px;
+    width: 50px;
+}
+
+img{
+    width: 200px;
+    height:200px;
+}
+
+
+

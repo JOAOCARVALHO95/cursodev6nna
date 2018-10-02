@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -14,15 +14,15 @@ and open the template in the editor.
 
   <body>
   <center><h2>Formulário de cadastro</h2></center>
-  <form id="formulario" autocomplete="off">
+  <form id="formulario" autocomplete="off" method="post" action="index2.html" onsubmit="validacao();" >
 	<fieldset class="fild1">
 		   <legend>Dados Pessoais</legend>
                   
-                   <b> <label>Nome:</label></b><input class="campo_nome" type="text"><br>
-		<p><B> E-mail:</B> <input class="campo_email" type="text" name="Nome"> </p>
-		<p><B> Cidade:</B> <input class="campo_cidade" type="text" name="Nome"> </p><p>
+            <b> <label>Nome:</label></b><input class="campo_nome" type="text" name="nome" required><br>
+		<p><B> E-mail:</B> <input class="campo_email" type="text" name="email" required> </p>
+		<p><B> Cidade:</B> <input class="campo_cidade" type="text" name="cidade" required> </p><p>
 
-                    <b>Estado:</b> <select class="estado" name="Estado">
+                    <b>Estado:</b> <select class="estado" name="Estado" required>
 			<option value="ac">AC</option>
 			<option value="al">AL</option>
 			<option value="ap">AP</option>
@@ -72,7 +72,8 @@ and open the template in the editor.
  
 
 	</form>
-  
+  <script type="text/javascript" src="pagina_inicial.js">
+      </script>
 
   </body>
 
